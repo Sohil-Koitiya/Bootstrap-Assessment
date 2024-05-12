@@ -1,0 +1,67 @@
+body {
+  background-image: url('../img/bg.jpg');
+}
+
+p {
+  font-size: 2.5rem;
+}
+
+h1 {
+  font-size: 3.5rem;
+}
+
+.check {
+  padding-top: 10px;
+}
+
+.current-date {
+  padding-top: 10px;
+}
+
+.button-wrapper {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.current-date span {
+  font-size: 18px;
+}
+
+.modal {
+  margin-top: 150px;
+}
+
+.modal-body p {
+  font-size: 16px;
+}
+
+.modal-body p span {
+  color: red;
+  font-weight: bold;
+}
+
+.modal-body div {
+  display: inline-block;
+}
+
+.modal-body div:first-child {
+  margin-right: 30px;
+}
+
+.modal-dialog {
+  height: 100px;
+}
+
+h3 {
+  font-weight: bold;
+}
+
+.modal-footer {
+  text-align: center;
+}
+
+@media (min-width: 1200px) {
+  body {
+    overflow: hidden;
+  }
+}
